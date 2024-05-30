@@ -1,0 +1,30 @@
+<h1 class="text-3xl my-5">Interval and Timer</h1>
+<div class="grid grid-cols-12">
+
+<div class="col-span-6">
+    <div class="flex flex-col ">
+        <h1 class="font-semibold mx-3">Interval: {{IntervalData}}</h1>
+        <button class="bg-green-600 m-5 w-fit p-3" (click)="stopObs()">Stop</button>
+    </div>
+    
+    <div class="mx-5">
+        <ul id="elContainer">
+        </ul>
+    </div>
+</div>
+
+<div class="col-span-6">
+    <div class="flex flex-col ">
+        <h1 class="font-semibold mx-3">Timer: {{TimerData}}</h1>
+        <p class="font-semibold mx-3">start after 5 seconds </p>
+
+        <button class="bg-green-600 m-5 w-fit p-3" (click)="stopTimerObs( )">Stop</button>
+    </div>
+    
+    <div class="mx-5">
+        <ul id="elContainer2">
+        </ul>
+    </div>
+</div>
+
+</div>
