@@ -1,1 +1,23 @@
-<p>to-array works!</p>
+<h1 class="text-3xl my-5">ToArray</h1>
+
+<div class="flex flex-col ">
+    <h1 class="font-semibold mx-3">To Array Operator</h1>
+    <p class="mx-3">Get All the incoming data from observable and makes an array</p>
+    <p class="mx-3">will wait for the data to commited completely and then change it into array</p>
+
+</div>
+
+<div class="mx-5">
+    <ul id="elContainer" *ngFor="let item of obsArray">
+        <li>{{item}}</li>
+    </ul>
+</div>
+
+
+    
+<button class="bg-green-600 m-5 w-fit p-3" #clickBtn (click)="showUserData()">Show Users</button>
+
+<ul *ngFor="let user of userArray">
+    <!-- by using json pipe we can convert object to json format -->
+    <li>{{user | json}}</li>
+</ul>
