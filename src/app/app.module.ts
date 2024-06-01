@@ -7,6 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { FromEventComponent } from './Operators/fromEvent/from-event/from-event.component';
 import { IntervalTimerComponent } from './Operators/IntervalTimer/interval-timer/interval-timer.component';
 import { OfAndFromComponent } from './Operators/OFandFrom/of-and-from/of-and-from.component';
+import { ToArrayComponent } from './Operators/ToArray/to-array/to-array.component';
 
 
 @NgModule({
@@ -16,6 +17,7 @@ import { OfAndFromComponent } from './Operators/OFandFrom/of-and-from/of-and-fro
     FromEventComponent,
     IntervalTimerComponent,
     OfAndFromComponent,
+    ToArrayComponent,
    
   ],
   imports: [
